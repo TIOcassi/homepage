@@ -1,0 +1,17 @@
+.section {
+    padding: 20px;
+}
+
+.section__header {
+    color: #222;
+    margin: 15px;
+}
+
+.section__image {
+    border-radius: 30px;
+}
+
+.section__subHeader {
+    color: #222;
+    margin: 15px;
+}

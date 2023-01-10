@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona internetowa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/tableContainer.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__item"><a class="navigation__link" href="#pierwsza-sekcja">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#druga-sekcja">Zainteresowania</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#trzecia-sekcja">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <section id="pierwsza-sekcja" class="section">
+                <h1 class="section__header">Krystian Zając</h1>
+                <img class="section__image" width="200" src="https://i.postimg.cc/QxfXNS1K/krystian.jpg"
+                    alt="Krystian Zając">
+                <p>Cześć, jestem Krystian. Mam 20 lat, z zawodu jestem <b>informatykiem.</b><br>
+                    Jestem z tych osób, które lubią rozwijać swoje pasje.</p>
+            </section>
+        </header>
+        <section id="druga-sekcja" class="section">
+            <h2 class="section__subHeader">Zainteresowania</h2>
+            <p>
+                Głównie <em>muzyka</em>, ale począwszy od tematów gier komputerowych oraz filmów.
+            </p>
+        </section>
+        <section id="nowy-akapit" class="section">
+            <h2 class="section__subHeader">Testowy nagłówek</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt illum officia impedit debitis
+                similique alias tenetur blanditiis quisquam obcaecati molestias. Quod assumenda ullam obcaecati veniam
+                vitae dicta tenetur aliquid magnam.
+            </p>
+        </section>
+        <div class="tableContainer">
+            <table class="table">
+                <caption class="table__caption">Lista wybranych polskich utworów</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                    <th class="table__cell table__cell--header" scope="col">Utwór</th>
+                    <th class="table__cell table__cell--header" scope="col">Album</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Justyna Steczkowska</th>
+                    <td class="table__cell">Poza ramą</td>
+                    <td class="table__cell">Poza ramą</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Wilki</th>
+                    <td class="table__cell">Baśka</td>
+                    <td class="table__cell">4</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Loka</th>
+                    <td class="table__cell">Na Czas</td>
+                    <td class="table__cell">Na Czas</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">sanah</th>
+                    <td class="table__cell">ostatnia nadzieja</td>
+                    <td class="table__cell">UCZTA</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Video</th>
+                    <td class="table__cell">Środa Czwartek</td>
+                    <td class="table__cell">Nie Obchodzi Nas Rock</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Feel</th>
+                    <td class="table__cell">7 Stan</td>
+                    <td class="table__cell">Feel 5</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Ignacy</th>
+                    <td class="table__cell">Czekam Na Znak</td>
+                    <td class="table__cell">Czekam Na Znak</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">B.R.O</th>
+                    <td class="table__cell">Jeszcze Będzie Pięknie</td>
+                    <td class="table__cell">Jeszcze Będzie Pięknie</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">bryska</th>
+                    <td class="table__cell">mam kogoś lepszego - Skytech Remix</td>
+                    <td class="table__cell">mam kogoś lepszego - Skytech Remix</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Agnieszka Chylińska</th>
+                    <td class="table__cell">Kiedyś do Ciebie wrócę</td>
+                    <td class="table__cell">Kiedyś do Ciebie wrócę</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">VOX</th>
+                    <td class="table__cell">Rycz mała rycz</td>
+                    <td class="table__cell">Rycz mała rycz</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Zikoo</th>
+                    <td class="table__cell">Dla Nieznajomej</td>
+                    <td class="table__cell">Dla Nieznajomej</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Jacek Stachursky</th>
+                    <td class="table__cell">Szampan I Truskawki</td>
+                    <td class="table__cell">Szampan I Truskawki</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Lady Pank</th>
+                    <td class="table__cell">Stacja Warszawa</td>
+                    <td class="table__cell">Stacja Warszawa</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Smolasty & 730Huncho</th>
+                    <td class="table__cell">Pijemy Za Lepszy Czas</td>
+                    <td class="table__cell">Pijemy Za Lepszy Czas</td>
+                </tr>
+            </table>
+        </div>
+
+        <section id="trzecia-sekcja" class="section">
+            <h3 class="section__subHeader">Kontakt</h3>
+            <p>
+                telefon: 601 651 330<br> email: <a href="mailto:tiocassi1@wp.pl" class="href">
+                    tiocassi1@wp.pl
+                </a>
+            </p>
+            <p>
+                <button class="button">włącz <span class="themeName">ciemny</span> motyw</button>
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        © Copyright 2023 Wszelkie Prawa Zastrzeżone
+    </footer>
+
+</body>
+
+</html>

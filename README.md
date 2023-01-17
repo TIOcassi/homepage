@@ -10,4 +10,3 @@ https://tiocassi.github.io/homepage/
 
 This is a short page about me.
 ![Krystian]
-

@@ -12,7 +12,7 @@ This is a short page about me.
 
 ## Tools
 
-- HTMl
+- HTML
 - CSS
 - JavaScript
 - BEM

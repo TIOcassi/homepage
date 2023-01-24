@@ -1,7 +1,7 @@
 {
     const welcome = () => { console.log("Witam serdecznie") };
 
-    const button = document.querySelector(".button");
+    const button = document.querySelector(".js-button");
     const body = document.querySelector(".body");
     const themeName = document.querySelector(".themeName");
 
